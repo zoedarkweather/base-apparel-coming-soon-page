@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/zoedarkweather/base-apparel-coming-soon-page](https://github.com/zoedarkweather/base-apparel-coming-soon-page)
+- Live Site URL: [https://base-apparel-coming-soon-page-two-nu.vercel.app/](https://base-apparel-coming-soon-page-two-nu.vercel.app/)
 
 ## My process
 

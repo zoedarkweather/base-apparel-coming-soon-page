@@ -86,7 +86,7 @@ input {
     padding: 1em;
     padding-left: 1.5em;
     vertical-align: middle;
-    width: 22em;
+    width: 90%;
     height: 3.5em;
     border: none;
     border: 1px solid var(--st-dark-grayish-red);
@@ -146,9 +146,13 @@ button:active {
 
 @media screen and (min-width:500px) {
     main {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
     }    
+
+    input {
+        width: 80%;
+    }
 }
 
 @media screen and (min-width:800px) {
@@ -211,7 +215,7 @@ button:active {
     }
 
     input {
-        width: 100%;
+        width: 90%;
     } 
 
 }
