@@ -208,7 +208,8 @@ button:active {
     main {
         width: auto;
         padding-inline: 5em;
-        padding-block: 2em;
+        padding-top: 0;     
+        padding-bottom: 5em;   
         grid-row: 2;
         grid-column: 1;
         text-align: left;
@@ -256,5 +257,7 @@ button:active {
 
     main {
         padding-inline: 10em;
+        padding-top:0;
+        padding-bottom: 5em;
     }  
  }
