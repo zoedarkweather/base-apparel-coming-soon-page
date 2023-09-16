@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="grid-container">
+            <header>
+                <img src="./images/logo.svg" alt="Base Apparel logo" class="logo">
+            </header>            
+            <div class="hero">
+                <picture>
+                    <source media="(min-width:800px)" srcset="./images/hero-desktop.jpg">
+                    <img src="./images/hero-mobile.jpg" alt="A fashionable woman with brown hair, wearing an orange blouse and a gold charm bracelet">
+                </picture> 
+            </div>       
+            
+            <main>
+                <h1><span class="light-text">We're</span> coming soon</h1>
+                <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+                <form novalidate name="email-signup" id="email-signup">
+                    <input type="email" name="email" id="email" aria-label="Enter your email address" required aria-required="true" placeholder="Email Address">                    
+                    <button type="submit" name="submit" id="submit" aria-label="submit">                    
+                    </button>
+                    <p class="error-msg"></p>
+                </form>
+            </main>
+        </div>        
+        <footer class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+            Frontend Mentor</a>. Coded by <a href="https://github.com/zoedarkweather">Jennifer Souza</a>.
+        </footer>
+        
+    </div>
+</body>
+
+</html>
